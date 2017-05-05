@@ -12,7 +12,7 @@
 }
 
 html, body {
-  background: url('/static/background.png') #D2691E;
+  background: url('/HistorcialLamps/static/background.png') #D2691E;
   background-size: cover;
   font-family: 'FontleroyBrownNF', cursive;
   color: #000;
