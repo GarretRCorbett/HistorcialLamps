@@ -1,0 +1,189 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Illumination</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <!--Handwritten Font-->
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
+
+  <!--Jquery-->
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  
+  <!--Twitter Bootstrap CSS-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="static/style.css">
+
+</head>
+
+<body>
+
+<div class="container">  
+  <div class="row text-center">
+    <div class="col-md-12">
+      <h1 id="exhibitTitle">Illumination</h1>
+    </div>
+  </div>       
+  <div class="row">
+
+    <div style="margin-top:100px" class="col-md-4 text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <button class='lined thick' id="production"><h2 class="menuTitle">Production</h2></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <button class='lined thick' id="workshops"><h2 class="menuTitle">Workshops</h2></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <button class='lined thick' id="slideshow"><h2 class="menuTitle">Slideshow</h2></button>
+        </div>
+      </div>
+      <!--<div class="row">
+        <div class="col-md-12">
+          <button class='lined thick' id="video1Button"><h2 class="menuTitle">Video 1</h2></button>
+        </div>
+      </div>-->
+      <div class="row">
+        <div class="col-md-12">
+          <button class='lined thick' id="video2Button"><h2 class="menuTitle">Video</h2></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-8"> 
+      <div class="largeColumnInfo" id="productionTextDiv" style="text-align:center;">
+        <h3>Lamp Production</h3>
+	<p>The most common method of lamp production in the Roman, Byzantine, and Early Islamic Periods in Israel-Palestine was with a mold. Wheel-made lamps became increasingly common during the Early Islamic period by the 9th century C.E. These methods manufactured the lamps you see today in this exhibition.</p>
+	
+	<h3>Mold – Made Lamps</h3>
+	<p>Mold-made lamps make up the majority of the lamps in this collection. The mold would be hand-made: created by clay, carved out of wood, or in some cases, out of plaster. Plaster molds wore out quickly from repeated use, whereas clay molds lasted much longer and their details did not erode as easily. The molds would be made from two separate blocks to create the top and bottom half of the lamp. The clay mold was then fired to be as dry and hard as possible.</p>
+	<p>When the mold was ready for use, a fresh piece of clay was added to each half of the mold. The clay would be pressed firmly into the mold, to allow for it to pick up any small design and to remove air bubbles. After drying, the two parts would be put together and the mold removed. This stage was also where the nozzle hole (B) and fill hole (A) would be pierced and cut, and a handle added if it was not already formed through the mold.</p>
+	
+	<h3>Wheel – Made Lamps</h3>
+	<p>Wheel-made lamps began as small bowls thrown on a wheel. After the bowl was crafted, a separate bowl was made, inverted, and placed inside the first to serve as the lamp top. The potter then let the clay dry until it was leather hard, at which point additional elements were added, such as a handle, a fill hole (A) for oil and a nozzle hole (B) for the wick (C), which is left soaking in the olive oil inside the reservoir (D).</p>
+	
+	<h3>Slip Preparation & Firing</h3>
+	<p>After the lamp had been fully fashioned through one of the methods above, it could be treated with a slip, either by painting, dipping, or pouring.</p>
+	<p>The type of kiln used during this period had a circular chamber for fuel (usually wood), with a flue for smoke removal and a stokehole for tending to the fire. Above this was the firing-floor, where the lamps would be stacked and resting on each other. The firing floor, had many holes to allow for the hot air from the fuel chamber to enter and heat the materials. It would have taken at least 24 hours for the temperature to build up and then cool again. After the lamps were fired, they would be removed, looked over and approved.</p>
+      </div>
+
+      <div class="largeColumnInfo" id="workshopsTextDiv" style="text-align:center;">
+        <h3>A Peek into the Workshops</h3>
+	<p>The production of these lamps more than likely took place in an industrial workshop. Such workshops would have operated in a manner markedly different from today’s standards of production design and consistency. In fact, the lamps were made using simple tools such as a mold or a wheel. Skilled artisans would have worked in the workshops that created the lamps in the collection, gradually refining their skills as the years went on. The locations of the workshops that produced the specific examples of lamps seen here are not known, but they were likely strategically located near the market place where these lamps would have been sold. The demand for lamps would have been greater in cities than in the countryside, therefore, the majority of the large scale workshops would have been located in populated cities.<p>
+
+
+      </div>
+
+      <div class="largeColumnInfo" id="slideshowDiv">
+        <img alt="Lamp Images" id="pictureRotation" style="max-width: 1200px" src="static/images.gif"/></p>
+      </div>
+
+      <!--<div class="largeColumnInfo" id="video1Div">
+        <video id="video1" width="1080" autoplay loop>
+	  <source src="static/video1.mp4" type="video/mp4">
+	  Your browser does not support HTML5 video.
+	</video>
+      </div>-->
+
+      <div class="largeColumnInfo" id="video2Div">
+        <video id="video2" width="1080" autoplay loop>
+	  <source src="static/video2.mp4" type="video/mp4">
+	  Your browser does not support HTML5 video.
+	</video>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script>
+
+$(document).ready(function(){
+
+    $("#slideshowDiv").css("display", "block");
+
+
+    /*function changeImage()
+    {
+        $("#pictureRotation").attr('src', imagesToRotate[currentImageNumber]);
+        currentImageNumber++;
+   
+        if(currentImageNumber >= imagesToRotate.length){
+            currentImageNumber = 0;
+        } 
+
+        setTimeout(changeImage, 6000);
+    }
+
+    var imagesToRotate = [];
+    var currentImageNumber = 1;
+
+    imagesToRotate[0] = "static/image1.jpg";
+    imagesToRotate[1] = "static/image2.jpg";
+    imagesToRotate[2] = "static/image3.jpg";
+    imagesToRotate[3] = "static/image4.jpg";
+    imagesToRotate[4] = "static/image5.jpg";
+    imagesToRotate[5] = "static/image6.JPG";
+    imagesToRotate[6] = "static/image7.JPG";
+    imagesToRotate[7] = "static/image8.JPG";
+    imagesToRotate[8] = "static/image10.JPG";
+    imagesToRotate[9] = "static/image11.JPG";
+    imagesToRotate[10] = "static/image12.JPG";
+    imagesToRotate[11] = "static/image13.JPG";
+    imagesToRotate[12] = "static/image14.JPG";
+    imagesToRotate[13] = "static/image15.JPG";
+    imagesToRotate[14] = "static/image16.JPG";
+    setTimeout(changeImage, 6000);*/
+
+
+    $("button").click(function(){
+        $("#productionTextDiv").css("display", "none");
+        $("#workshopsTextDiv").css("display", "none");
+        $("#slideshowDiv").css("display", "none");
+        $("#video1Div").css("display", "none");
+        $("#video2Div").css("display", "none");
+
+        if ($(this).attr("id") == "production") { $("#productionTextDiv").css("display", "block"); }
+        if ($(this).attr("id") == "workshops") { $("#workshopsTextDiv").css("display", "block"); }
+        if ($(this).attr("id") == "slideshow") { $("#slideshowDiv").css("display", "block"); }
+        if ($(this).attr("id") == "video1Button") { 
+            var video = document.getElementById("video1");
+            video.currentTime = 0;
+            $("#video1Div").css("display", "block"); 
+        }
+        if ($(this).attr("id") == "video2Button") { 
+            var video = document.getElementById("video2");
+            video.currentTime = 0;
+            $("#video2Div").css("display", "block"); }
+    });
+
+
+    var time = new Date().getTime();
+    $(document.body).bind("mousemove keypress", function(e) { 
+      time = new Date().getTime();
+    });
+    function refresh() { 
+        if(new Date().getTime() - time >= 600000)    
+           window.location.reload(true);    
+        else      
+           setTimeout(refresh, 100000);    
+    } 
+    setTimeout(refresh, 100000);
+});
+</script>
+
+</body>
+</html>

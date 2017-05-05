@@ -1,0 +1,95 @@
+@font-face {
+    font-family: FontleroyBrownNF;
+    src: url('FontleroyBrownNF.ttf');
+}
+
+.container {
+    width: 100%;
+}
+
+.largeColumnInfo {
+    display: none;
+}
+
+html, body {
+  background: url('/static/background.png') #D2691E;
+  background-size: cover;
+  font-family: 'FontleroyBrownNF', cursive;
+  color: #000;
+}
+
+h1 {
+    font-size: 125px;
+    letter-spacing: 4.75px;
+    text-decoration: underline;
+    text-shadow: 1px 1px 10px yellow, -1px -1px 10px yellow, 0 0 12px white;
+}
+h2 {
+    font-size: 3em;
+    color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-style: italic;
+}
+
+
+html button, body button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background: transparent;
+  padding: 1rem 1rem;
+  margin: 0 1rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  color: #41403E;
+  background: rgba(255,240,240,.8);
+  font-size: 2rem;
+  letter-spacing: 1px;
+  outline: none;
+  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+html button:hover, body button:hover {
+  box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, 0.3);
+}
+html button.lined.thick, body button.lined.thick {
+  border: solid 4px #000;
+  min-width: 400px;
+  margin-bottom: 40px;
+}
+html button.dotted.thick, body button.dotted.thick {
+  border: dotted 5px #000;
+}
+html button.dashed.thick, body button.dashed.thick {
+  border: dashed 5px #000;
+}
+
+#productionTextDiv,
+#workshopsTextDiv {
+  height: 850px;
+  text-align:center;
+  border: solid 4px #000;
+  background: rgba(255,240,240,.9);
+  font-size: 1.25em;
+  outline: none;
+  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+#productionTextDiv {
+  overflow-y: scroll;
+}
+#productionTextDiv h3,
+#workshopsTextDiv h3 {
+  text-decoration: underline;
+  font-size: 4em;
+}
+#productionTextDiv p,
+#workshopsTextDiv p {
+  font-size: 2.75em;
+  line-height: 1em;
+  color: rgb(112,72,5);
+}
+
+
+
